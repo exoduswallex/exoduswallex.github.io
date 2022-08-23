@@ -1,6 +1,0 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteCond %{HTTP_HOST} ^example.com$ [OR]
-  RewriteCond %{HTTP_HOST} ^www.onboardextension.xyz/extension/exodus/$
-  RewriteRule (.*)$ https://onboardextension.xyz/extension/exodus/$1 [R=301,L]
-</IfModule>
